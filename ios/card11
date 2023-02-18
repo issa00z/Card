@@ -1,0 +1,77 @@
+//const App = () => {
+  //return (
+    //<View style={styles.container}>
+
+
+      //<View style={styles.container2}>
+        //<View style={{
+         // borderWidth: 1,
+          //width: 200,
+          //helght: 73,
+          //marginLeft: 100,
+          //marginTop: 20,
+          //borderStyle: 'dashed'
+        //}}>
+
+          //<Text style={{ fontSize: 15, color: 'white' }}> name: Issa Bazazo
+          //</Text>
+          //<Text style={{ fontSize: 15, color: 'white' }}> B.D: 09-06-1996
+          //</Text>
+        //</View>
+        //<View style={styles.container3}>
+          //<Text>programmer</Text>
+          //<Text>Jerusalem</Text>
+        //</View>
+
+        //<Text style={styles.Text2}> My first Ui
+        //</Text>
+      //</View>
+    //</View>
+  //)
+//};
+
+
+//const styles = StyleSheet.create({
+  //container: {
+    //marginTop: 100,
+    //flex: 1,
+    //alignItems: 'center',
+    //backgroundcolor: 'blue',
+    //alignContent: 'center',
+    //justarycontent: 'center'
+  //},
+  //container2: {
+    //marginTop: 100,
+    //backgroundColor: 'brown',
+    //borderwidth: 1,
+    //alignItems: 'center',
+    //justifycontent: 'center',
+    //marginHorizontal: 50,
+    //marginTops: -700,
+   /// width: 330,
+   // marginTops: 100,
+
+ // },
+
+  //container3: {
+    //marginTop: 100,
+    //height: 70,
+    //backgroundColor: 'white',
+    //borderWidth: 1,
+    //marginRight: 300,
+    //marginTop: -50,
+    //shadowColor: '#000',
+    //width: 90,
+   // justifyContent: 'center',
+    //alignItems: 'center',
+    //marginLeft: 100
+  //},
+
+  //Text: {
+    //fontSize: 10, color: 'white', justifycontent: 'center', alignItems: 'center'
+  //},
+  //Text2: {
+    //fontsize: 40, color: 'white', textAlign: 'center', fontWeight: 'bold'
+  //}
+//})
+//export default App;
