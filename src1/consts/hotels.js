@@ -1,0 +1,55 @@
+const hotels = [
+  {
+    id: '1',
+    name: 'Grand Court',
+    location: ' St George St 15, Jerusalem',
+    price: 120,
+    review: 100,
+    currency:'$',
+    image: require('../assets/Hotel1.jpg'),
+    details: `Your Host in the Holy City, The Grand Court is the ideal hotel for all visitors in the holy city of Jerusalem. The hotel is located in the city center, just a short walk from the Old City, abundant in important holy sites, colorful markets, and notable historical and cultural attractions`,
+  },
+  {
+    id: '2',
+    name: 'American Colony Hotel',
+    location: 'Louis Vincent St 1, Jerusalem',
+    price: 70,
+    review: 56718 ,
+    currency:'$',
+    image: require('../assets/Hotel2.jpg'),
+    details: `Immerse yourself in its unique and tranquil beauty, while delving into Jerusalems rich past, and add your name to a guest list that includes Lawrence of Arabia, Winston Churchill, Bob Dylan, Uma Thurman, Richard Gere, Giorgio Armani, Miuccia Prada, Tony Blair & Mikhail Gorbachev, to name a few`,
+  },
+  {
+    id: '3',
+    name: 'St. George Hotel',
+    location: 'Amr Ibn Al St 6, Jerusalem',
+    price: 90,
+    review: 309928 ,
+    currency:'$',
+    image: require('../assets/Hotel3.jpg'),
+    details: `The St George Hotel Jerusalem is a luxury hotel with an interesting history that has been restored to its former splendor, offering unique standards of hospitality. Multi winners of a prestigious World Luxury Hotel award, the hotel is a well-known landmark in Jerusalem. Its location is ideal for accessing the old city of Jerusalem and many of the major religious sites are within walking distance, as are the main shopping centers of East and West Jerusalem. The hotel has the only rooftop swimming pool in the city center.`,
+  },
+  {
+    id: '4',
+    name: 'Ambassador Hotel',
+    location: 'Nablus Rd 5, Jerusalem',
+    price: 110,
+    review: 14340 ,
+    currency:'$',
+    image: require('../assets/Hotel4.jpg'),
+    details: `The hotel rooms are equipped with an air condition, a plasma TV with satellite channels and a private bathroom & shower. Some rooms have their own balcony with a tremendous view to the charming garden and a panoramic view to the Old City.`,
+  },
+
+  {
+    id: '5',
+    name:'Legacy Hotel',
+    location: ' דרך שכם ',
+    price: 115,
+    review: 123340 ,
+    currency:'$',
+    image:require ('../assets/Hotel5.jpg'),
+    details:'Started off as a YMCA, the 1960s building has been meticulously renovated to give that perfect blend of old charm and elegance with today s convenience and design simplicity. From the high ceilings and modern furnishings of the lobby to the elegance and serenity of the restaurant on the top floor, there is no detail left untouched. All converge exquisitely to transport each guest. Moreover, the breathtaking panoramic views of Jerusalem, afford guests a chance to survey the many splendors the city has to offer',
+  },
+];
+
+export default hotels;

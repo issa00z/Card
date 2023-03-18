@@ -2,7 +2,7 @@ import React from 'react';
 import{View,Text} from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import{ createBottomTabNavigator }from '@react-navigation/bottom-tabs';
-// import Iconicons from 'react-native-vector-icons/Iconicons'
+import icon from 'react-native-vector-icons/Ionicons'
 
 //screens
 import Home from './screens/home'
@@ -10,6 +10,7 @@ import Hotels from './screens/Hotels'
 import Meals from './screens/Meals'
 import Sites from './screens/Sites'
 import Homescreen from '../../screens/Homescreen';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 //screen names
 
@@ -31,18 +32,18 @@ export default function Maincontainer(){
                 let rn= route.name;
 
                 if(rn === homeName){
-                    iconname =focused ? 'home' : "home-outline"
+                    iconname =focused ? 'home' : "ios-home"
                 }else if (rn=== HotelsName){
-                    iconname =focused ? 'Hotels' : "Hotels-outline"
+                    iconname =focused ? 'Hotel' : "md-bed"
                 }else if (rn=== MealsName){
-                    iconname =focused ? 'Meals' : "Meals-outline"
+                    iconname =focused ? 'Meals' : "ios-fast-food"
                 }else if (rn=== SitesName){
-                    iconname =focused ? 'Sites' : "Sites-outline"
+                    iconname =focused ? 'Sites' : "ios-bicycle"
 
     
             }
 
-            // return<Iconicons name = {iconname} size =  {size}  color = {color}/>
+            return<Icon name = {iconname} size =  {size}  color = {color}/>
             return <View></View>
         },
         })}>

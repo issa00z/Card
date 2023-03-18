@@ -15,7 +15,7 @@ const MainNavigation = () => {
         <NavigationContainer>
             <Stack.Navigator>
                 <Stack.Screen name={ScreensName.Homescreen} component={Homescreen} />
-                <Stack.Screen name={ScreensName.Secondscreen} component={Secondscreen} />
+                {/* <Stack.Screen name={ScreensName.Secondscreen} component={Secondscreen} /> */}
             </Stack.Navigator>
         </NavigationContainer>
     )
