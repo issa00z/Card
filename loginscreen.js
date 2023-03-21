@@ -37,8 +37,8 @@ const loginscreen = ({navigation}) => {
         <InputField
           label={'Email ID'}
           icon={
-            <MaterialIcons
-            name="alternate-email"
+            <Ionicons
+            name="at-outline"
             size={20}
             color="#666"
             style={{marginRight: 5}}

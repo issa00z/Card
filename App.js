@@ -71,6 +71,7 @@ import { DrawerActions } from '@react-navigation/native';
 import { useState } from 'react';
 import { StyleSheet } from "react-native";
 import LoginScreen from './loginscreen';
+import RegisterScreen from './registerscreen';
 import Maincontainer from './src/componants/navigation/Maincontiner';
 import Login from './src/screens/login';
 import Navigation1 from './src1/Navigation1';
@@ -82,5 +83,5 @@ const [name, setname]= useState('anything');
 const clickhandler=() => {
   setname('issa');
 }
-return(<LoginScreen/>)
+return(<RegisterScreen/>)
  };
